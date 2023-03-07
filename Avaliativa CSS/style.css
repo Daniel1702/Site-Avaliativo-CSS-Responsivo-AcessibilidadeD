@@ -1,0 +1,153 @@
+/* Zerando a página */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+  
+  /* Estilos para o corpo da página */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color:#eeeded;
+    color: #333;
+  }
+  
+  /* Estilos para o cabeçalho */
+  header {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    border-bottom: 2px solid #333;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 0 120px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    transition: .5s;
+  }
+
+  nav a:hover{
+    color: rgb(93, 192, 93);
+  }
+  
+  
+  /* Estilos para o conteúdo principal */
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 140px;
+    padding: 15px;
+  }
+  
+  section {
+    display: inline-block;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    height: 80vh;
+    margin: 1% 5%;
+  }
+
+  #s {
+    width: 115%;
+  }
+  
+  section h1,
+  section h2 {
+    margin-top: 5px;
+  }
+  
+  section ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  section a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para o rodapé */
+  footer {
+    background-color: #fff;
+    width: auto;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+
+  .card {
+    width: 50%;
+    display: inline-block;
+    margin: 10% 14%;
+    padding: 15px;
+}
+.product-image {
+    max-width: 130%;
+    height: auto;
+    width: 30em; /* Exemplo de largura com unidade "em" */
+    height: 20rem; /* Exemplo de altura com unidade "rem" */
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    border-bottom: 1px solid #126331;
+    text-align: center;
+    align-items: center;
+}
+
+h3 {
+    padding-left: 1px;
+    border-left: 3px solid #0ba145
+}
+
+div #img-1 {
+    background-image: url('imagens/img06.jpg');
+  
+}
+
+.btn {
+    display: block;
+    width: 26em;
+    height: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #3db36b;
+    color: #FFF;
+    padding: 15px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.btn:hover {
+    background-color: #0f642f;
+}
+
+section, #s2 {
+    margin-left: 0;
+    text-align: center;
+}
+
+.s-2 {
+    padding: 15px;
+}
